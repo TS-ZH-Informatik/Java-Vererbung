@@ -11,12 +11,12 @@ public class Dozent extends Person{
 	 * Konstruktor für einen Dozent
 	 * @param name
 	 * @param birth
-	 * @param Salary
+	 * @param salary
 	 */
-	public Dozent(String name, String birth, Double Salary) {
+	public Dozent(String name, String birth, double salary) {
 		super(name, birth);
 		
-		this.Salary = BigDecimal.valueOf(Salary);
+		this.Salary = BigDecimal.valueOf(salary);
 		
 	}
 	
